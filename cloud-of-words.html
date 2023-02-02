@@ -8,8 +8,17 @@
 	</head>
 	<body onload="init();">
 		<header>Cloud of Words of</header>
-		<section id="cloud-of-words">
 
-        </section>
+		<div id="cloud-menu">
+			<section id="menu">
+				<button type="button" onclick="update('default');">Default</button>
+				<button type="button" onclick="update('blue');">All Blue</button>
+				<button type="button" onclick="update('peque');">Pequeñas</button>
+				<button type="button" onclick="update('masusadas');">Mas usadas</button>
+				<p id="muestra"></p>
+			</section>
+			<section id="cloud-of-words">
+			</section>
+		</div>
 	</body>
 </html>
